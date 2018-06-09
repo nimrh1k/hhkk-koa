@@ -1,11 +1,14 @@
 const Koa = require('koa');
 const app = new Koa();
 
-const { commonMiddels, middels } = require('./middles');
 
-// use middlewares
+const routes = require('./routes');
 
-// load Router
+
+
+routes.initRouters(app);
+
+
 
 app.listen(10000, () => {
     console.log('Koa is running!!');

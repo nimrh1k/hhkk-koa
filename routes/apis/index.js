@@ -1,3 +1,1 @@
-const schema = {
-    '': ''
-};
+module.exports.test = require('./test');
