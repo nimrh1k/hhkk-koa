@@ -5,13 +5,14 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/.bin/mocha ./specs"
   },
   "repository": {
     "type": "git",
     "url": "'"
   },
   "author": "",
+
   "license": "ISC",
   "dependencies": {
     "koa": "^2.5.1",
