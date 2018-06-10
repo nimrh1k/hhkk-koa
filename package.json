@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "test": "node_modules/.bin/mocha ./specs"
+    "test": "node_modules/.bin/mocha ./specs --exit"
   },
   "repository": {
     "type": "git",
